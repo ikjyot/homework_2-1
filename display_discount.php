@@ -7,7 +7,7 @@
   
   #Formatting the numeric data
   $list_price_format = "$".number_format($list_price, 2);
-  $discount_percentage_format = $discount_percent."%";
+  $discount_percentage_format = $discount_percentage."%";
   $discount_amount_format = "$".number_format($discount_amount, 2);
   $discount_price_format = "$".number_format($discount_price, 2);
 
@@ -27,16 +27,16 @@
         <span><?php echo $product_description; ?></span><br>
 
         <label>List Price:</label>
-        <span><?php echo $list_price; ?></span><br>
+        <span><?php echo $list_price_format; ?></span><br>
 
         <label>Standard Discount:</label>
-        <span><?php echo $discount_percentage; ?></span><br>
+        <span><?php echo $discount_percentage_format; ?></span><br>
 
         <label>Discount Amount:</label>
-        <span><?php echo $discount_amount; ?></span><br>
+        <span><?php echo $discount_amount_format; ?></span><br>
 
         <label>Discount Price:</label>
-        <span><?php echo $discount_price; ?></span><br>
+        <span><?php echo $discount_price_format; ?></span><br>
     </main>
 </body>
 </html>
