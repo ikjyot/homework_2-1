@@ -1,3 +1,12 @@
+<?php
+  $product_description = $_POST['product_decription'];
+  $list_price = $_POST['list_price'];
+  $discount_percentage = $_POST['discount_percent'];
+
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +16,6 @@
 <body>
     <main>
         <h1>This page is under construction</h1>
-
         <label>Product Description:</label>
         <span><?php echo ''; ?></span><br>
 
